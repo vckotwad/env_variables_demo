@@ -16,7 +16,7 @@ jobs:
     environment: testing
     runs-on: ubuntu-latest
     steps:
-      - name: Get Code
+      - name: Get Code using checkout
         uses: actions/checkout@v3
       - name: Cache dependencies
         uses: actions/cache@v3
