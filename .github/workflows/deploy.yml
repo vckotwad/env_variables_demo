@@ -32,7 +32,6 @@ jobs:
       - name: Output information
         run: echo "username is- ${{ env.MONGODB_USERNAME }}"
   deploy:
-    needs: test
     runs-on: ubuntu-latest
     steps:
       - name: Output information
